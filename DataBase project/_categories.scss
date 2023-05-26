@@ -1,0 +1,33 @@
+#categories {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#categories ul li {
+    width: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgba(160, 160, 160, 0.63);
+    border-radius: 5px;
+}
+
+#categories ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#categories ul li:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}

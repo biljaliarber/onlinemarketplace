@@ -1,0 +1,20 @@
+* {
+    scroll-behavior: smooth;
+}
+
+@use '_product';
+@use '_categories';
+@use '_footer';
+
+h1 {
+    margin: 50px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
